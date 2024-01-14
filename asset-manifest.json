@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.24b0e582.css",
-    "main.js": "/static/js/main.f421eb38.js",
-    "static/media/edison.jpg": "/static/media/edison.4790418a5d22e3dbc16e.jpg",
-    "static/media/edison-resume.pdf": "/static/media/edison-resume.ce0cde934d768621e8f9.pdf",
-    "index.html": "/index.html",
-    "main.24b0e582.css.map": "/static/css/main.24b0e582.css.map",
-    "main.f421eb38.js.map": "/static/js/main.f421eb38.js.map"
+    "main.css": "/EdisonDevadoss/my-profile/static/css/main.f4e43a80.css",
+    "main.js": "/EdisonDevadoss/my-profile/static/js/main.9f9aafa6.js",
+    "static/media/edison.jpg": "/EdisonDevadoss/my-profile/static/media/edison.4790418a5d22e3dbc16e.jpg",
+    "static/media/edison-resume.pdf": "/EdisonDevadoss/my-profile/static/media/edison-resume.ce0cde934d768621e8f9.pdf",
+    "index.html": "/EdisonDevadoss/my-profile/index.html",
+    "main.f4e43a80.css.map": "/EdisonDevadoss/my-profile/static/css/main.f4e43a80.css.map",
+    "main.9f9aafa6.js.map": "/EdisonDevadoss/my-profile/static/js/main.9f9aafa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b0e582.css",
-    "static/js/main.f421eb38.js"
+    "static/css/main.f4e43a80.css",
+    "static/js/main.9f9aafa6.js"
   ]
 }
