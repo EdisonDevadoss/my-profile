@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-profile/static/css/main.f4e43a80.css",
+    "main.js": "/my-profile/static/js/main.699911eb.js",
+    "static/media/edison.jpg": "/my-profile/static/media/edison.4790418a5d22e3dbc16e.jpg",
+    "static/media/edison-resume.pdf": "/my-profile/static/media/edison-resume.ce0cde934d768621e8f9.pdf",
+    "index.html": "/my-profile/index.html",
+    "main.f4e43a80.css.map": "/my-profile/static/css/main.f4e43a80.css.map",
+    "main.699911eb.js.map": "/my-profile/static/js/main.699911eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4e43a80.css",
+    "static/js/main.699911eb.js"
+  ]
+}
