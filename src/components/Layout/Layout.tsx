@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
-    <div className="bg-gray min-h-screen px-20">
+    <div className="bg-gray min-h-screen px-8 md:px-20">
       <nav className="py-6">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo/Name */}
@@ -13,7 +13,7 @@ function Layout() {
             </span>
           </div>
           {/* Menu items */}
-          <div className="hidden space-x-6 mr-50 md:flex">
+          <div className="space-x-6 mr-50 md:flex">
             <Link
               to="/"
               className="text-grayDark hover:text-black active:text-green active:bg-gray active:underline"
