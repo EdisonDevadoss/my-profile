@@ -82,11 +82,11 @@ const STORIES: Stories[] = [
 
 const BlogPosts = () => {
   return (
-    <div className="mt-10">
-      <div className="max-w-screen-xl mx-auto bg-white rounded-l shadow md overflow-hidden md:max-w-screen-2xl">
+    <div className="mt-10 mb-4">
+      <div className="max-w-screen-xl mx-auto bg-white rounded shadow-xl overflow-hidden md:max-w-screen-2xl">
         {/* Green Header */}
         <div className="bg-green h-36 flex justify-center items-center">
-          <h1 className="text-center text-white font-bold text-4xl">
+          <h1 className="text-center text-white font-bold text-2xl md:text-4xl">
             My Medium Blogs
           </h1>
         </div>
@@ -94,7 +94,7 @@ const BlogPosts = () => {
         <div className="grid grid-cols-1 gap-6 m-4 md:grid-cols-2 lg:grid-cols-3">
           {STORIES.map((row: Stories, index: number) => {
             return (
-              <div key={row.link} className="bg-white p-8 rounded shadow">
+              <div key={row.link} className="bg-white p-8 rounded shadow-md">
                 <a href={row.link} target="_blank" rel="noopener noreferrer">
                   <h3>{row.title}</h3>
                 </a>

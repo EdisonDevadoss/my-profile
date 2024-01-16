@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
@@ -14,18 +14,26 @@ function Layout() {
           </div>
           {/* Menu items */}
           <div className="space-x-6 mr-50 md:flex">
-            <Link
+            <NavLink
               to="/"
-              className="text-grayDark hover:text-black active:text-green active:bg-gray active:underline"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black underline underline-offset-4 decoration-4 decoration-green'
+                  : 'text-grayDark hover:text-black active:bg-gray'
+              }
             >
               Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/blogs"
-              className="text-grayDark hover:text-black active:bg-gray active:underline"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black underline underline-offset-4 decoration-4 decoration-green'
+                  : 'text-grayDark hover:text-black active:bg-gray'
+              }
             >
               Blogs
-            </Link>
+            </NavLink>
           </div>
           {/* Right Side */}
           <div></div>
