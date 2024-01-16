@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin, FaMediumM } from 'react-icons/fa';
 
 function Home() {
   return (
-    <div className="mt-10">
-      <div className="max-w-screen-xl mx-auto bg-white rounded-l shadow-md overflow-hidden md:max-w-screen-2xl">
+    <div className="mt-10 mb-4">
+      <div className="max-w-screen-xl mx-auto bg-white rounded shadow-xl overflow-hidden md:max-w-screen-2xl">
         {/* Header */}
         <div className="flex bg-green justify-between items-center">
           {/* Photos */}
@@ -66,7 +66,7 @@ function Home() {
                   Edison <span className="text-green">Devadoss</span>
                 </span>
               </div>
-              <ul className="list-disc space-y-2 text-justify">
+              <ul className="list-none space-y-2 text-justify md:list-disc">
                 <li className="text-black font-2xl text-sm md:text-base">
                   Hello! I’m Edison Devadoss. I am a full stack developer.
                 </li>
